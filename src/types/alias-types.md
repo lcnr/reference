@@ -1,3 +1,4 @@
+<unstable-text>
 r[type.alias]
 
 - associated types
@@ -33,3 +34,5 @@ For all applicable candidates we
 - prefer where-bounds
 - then alias bounds
 - then impls
+
+</unstable-text>

@@ -7,3 +7,8 @@
 - [Name resolution](./names/name-resolution.md)
   - [Shadowing of textual scope bindings for macros](./macros-by-example.md#r-macro.decl.scope.textual.shadow.path-based)
 - [Concurrency](./concurrency.md)
+- Trait solving
+  - [Generic instantiation](./items/generics.md#r-items.generics.instantiation)
+  - [Alias types](./types/alias-types.md)
+  - [Trait bounds](./trait-bounds.md#r-bound.global)
+  - [Type equality](./types.md#r-types.equality)
