@@ -6,3 +6,4 @@
   - [Diverging match statements](./expressions/match-expr.md#r-expr.match.type)
 - [Name resolution](./names/name-resolution.md)
   - [Shadowing of textual scope bindings for macros](./macros-by-example.md#r-macro.decl.scope.textual.shadow.path-based)
+- [Concurrency](./concurrency.md)
