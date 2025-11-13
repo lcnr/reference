@@ -12,3 +12,4 @@
   - [Alias types](./types/alias-types.md)
   - [Trait bounds](./trait-bounds.md#r-bound.global)
   - [Type equality](./types.md#r-types.equality)
+- [Frontmatter](./frontmatter.md)

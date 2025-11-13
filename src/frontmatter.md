@@ -1,3 +1,4 @@
+<unstable-rust feature="frontmatter">
 r[frontmatter]
 # Frontmatter
 
@@ -37,3 +38,5 @@ r[frontmatter.body]
 The body of the frontmatter may contain any content except for a line starting with as many or more hyphens (`-`) than in the fences.
 
 [shebang]: input-format.md#shebang-removal
+
+</unstable-rust>
