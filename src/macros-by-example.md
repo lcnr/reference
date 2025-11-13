@@ -326,6 +326,8 @@ fn foo() {
 // m!(); // Error: m is not in scope.
 ```
 
+<unstable-text>
+
 r[macro.decl.scope.textual.shadow.path-based]
 Textual scope name bindings for macros may shadow path-based scope bindings to
 macros.
@@ -378,6 +380,8 @@ r[macro.decl.scope.path-based.visibility]
 * macros have an implicit visibility of `pub(crate)`
 * `#[macro_export]` changes the implicit visibility to `pub`
 * macro definitions do not support direct visibility modifiers
+
+</unstable-text>
 
 <!-- template:attributes -->
 r[macro.decl.scope.macro_use]

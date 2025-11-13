@@ -1,3 +1,4 @@
+<unstable-text>
 r[names.resolution]
 # Name resolution
 
@@ -423,3 +424,5 @@ r[names.resolution.type-dependent]
 [permitted]: name-resolution.md#r-names.resolution.expansion.imports.shadowing
 [macro invocations]: ../macros.html#macro-invocation
 [path-based scope]: ../macros-by-example.html#r-macro.decl.scope.path-based
+
+</unstable-text>
