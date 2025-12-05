@@ -314,7 +314,7 @@ struct Foo<#[my_flexible_clone(unbounded)] H> {
 r[items.generics.instantiation]
 When using an item its generic parameters have to get instantiated. This replaces all occurances of the parameter with either the explicitly provided argument or a new inference variable.
 
-Instantiating the generic parameters of an item generally requires proving its where clauses.
+Instantiating the generic parameters of an item requires proving its where clauses.
 
 </unstable-text>
 
