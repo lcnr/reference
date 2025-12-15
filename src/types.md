@@ -154,10 +154,15 @@ let a: List<i32> = List::Cons(7, Box::new(List::Cons(13, Box::new(List::Nil))));
 
 r[types.equality]
 
-Equality and subtyping of types is generally structural; if the outermost type constructors are the same,
-their corresponding generic arguments are pairwise compared. We say types with this equality behavior are *rigid*. The only exceptions from this rule are higher ranked types and alias types.
+When relating types, we may either be in a invariant context - requiring equality - or in a co/contravariant context - requiring them
+to be subtypes of each other.
 
 r[types.equality.rigid]
+
+Equality and subtyping of types is generally structural; if the outermost type constructors are the same,
+their corresponding generic arguments are pairwise compared.  We say types with this equality behavior are *rigid*.
+Recursing into arguments updates the current variance based on the variance of that argument.The only exceptions
+from this rule are higher ranked types and alias types.
 
 r[types.equality.aliases]
 
